@@ -3,24 +3,6 @@
 class ShareDraftPlugin extends Plugin
 {
 	/**
-	 * function info
-	 * Returns information about this plugin
-	 * @return array Plugin info array
-	 **/
-	function info()
-	{
-		return array (
-			'name' => 'Share Draft',
-			'url' => 'http://habariproject.org/',
-			'author' => 'Owen Winkler',
-			'authorurl' => 'http://asymptomatic.net/',
-			'version' => '1.0.1',
-			'description' => 'Allows an author to share a draft of a post using a special link',
-			'license' => 'Apache License 2.0',
-		);
-	}
-
-	/**
 	 * Update the where filters for querying a post if the sharedraft key is set
 	 *
 	 * @param array $filters The array of pre-existing filters
