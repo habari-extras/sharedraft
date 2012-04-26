@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<pluggable type="plugin">
+<pluggable type="plugin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://schemas.habariproject.org/pluggable/0.8">
 	<name>Share Draft</name>
+	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
+	
 	<author url="http://asymptomatic.net/">Owen Winkler</author>
-	<version>1.0.2</version>
-	<url>http://habariproject.org/</url>
-	<description><![CDATA[Allows an author to share a draft of a post using a special link.]]></description>
-	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License 2.0</license>
-	<copyright>2009</copyright>
-</pluggable> 
- 
+	<author url="http://morgante.net">Morgante Pell</author>
+	<author url="http://habariproject.org/">The Habari Community</author>
+	
+	<version>1.1</version>
+	<url>http://lab.morgante.net/hisa</url>
+	<description><![CDATA[Share private and unpublished posts with a simple link.]]></description>
+
+	<copyright>2011</copyright>
+	
+	<help>
+		<value><![CDATA[
+			<p>After the plugin is installed, a new section on the post page will present you with a private link to share the post. Anyone you give that link to will be able to view the post regardless of its permissions, including if it is unpublished.</p>
+		]]></value>
+	</help>
+</pluggable>
